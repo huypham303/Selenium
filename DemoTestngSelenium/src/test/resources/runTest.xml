@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+	<listeners>
+		<listener class-name="demo.ManageListener" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<class name="demo.Test_01_CreateTestNG" />
+			<class name="demo.TestCase_02_CreateWithPlugin" />
+			<class name="demo.TestCase_03_CreateVIew" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
